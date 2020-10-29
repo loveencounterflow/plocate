@@ -58,6 +58,9 @@ plocate-build                                         -> /usr/local/sbin/plocate
 ## Usage
 
 
-
+```sh
+sudo ./update-plocate.sh
+sudo plocate foo
+```
 
 
