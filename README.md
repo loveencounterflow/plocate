@@ -57,10 +57,12 @@ plocate-build                                         -> /usr/local/sbin/plocate
 
 ## Usage
 
+To update the DB and then search for substring or POSIX extended regular expressions:
 
 ```sh
 sudo ./update-plocate.sh
 sudo plocate foo
+sudo plocate --regex 'foo.*bar' | less -SRN#5
 ```
 
 
